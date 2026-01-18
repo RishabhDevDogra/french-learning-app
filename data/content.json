@@ -1,0 +1,462 @@
+{
+  "paragraphs": [
+    {
+      "level": "A1",
+      "paragraphId": "a1-1",
+      "title": "Bonjour!",
+      "frenchLines": [
+        "Bonjour! Je m'appelle Marie.",
+        "J'ai vingt ans.",
+        "J'habite à Paris.",
+        "J'aime le café et les croissants."
+      ],
+      "englishLines": [
+        "Hello! My name is Marie.",
+        "I am twenty years old.",
+        "I live in Paris.",
+        "I like coffee and croissants."
+      ],
+      "mcqs": [
+        {
+          "question": "Quel est le nom de la personne?",
+          "options": ["Pierre", "Marie", "Sophie", "Jean"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Où habite Marie?",
+          "options": ["Lyon", "Marseille", "Paris", "Nice"],
+          "correctIndex": 2
+        },
+        {
+          "question": "Qu'est-ce que Marie aime?",
+          "options": ["Le thé", "Le café", "Le chocolat", "Le lait"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "level": "A1",
+      "paragraphId": "a1-2",
+      "title": "Ma Famille",
+      "frenchLines": [
+        "J'ai une grande famille.",
+        "Mon père s'appelle Pierre.",
+        "Ma mère s'appelle Sophie.",
+        "J'ai un frère et une sœur."
+      ],
+      "englishLines": [
+        "I have a big family.",
+        "My father's name is Pierre.",
+        "My mother's name is Sophie.",
+        "I have a brother and a sister."
+      ],
+      "mcqs": [
+        {
+          "question": "Comment s'appelle le père?",
+          "options": ["Jean", "Pierre", "Marc", "Paul"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Combien de frères et sœurs a-t-il/elle?",
+          "options": ["Un", "Deux", "Trois", "Quatre"],
+          "correctIndex": 1
+        },
+        {
+          "question": "La famille est...",
+          "options": ["Petite", "Grande", "Moyenne", "Nombreuse"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "paragraphId": "a2-1",
+      "title": "Mon Week-end",
+      "frenchLines": [
+        "Le samedi matin, je me réveille tard.",
+        "Je prends mon petit-déjeuner tranquillement.",
+        "L'après-midi, je vais au cinéma avec mes amis.",
+        "Le dimanche, je fais du sport au parc.",
+        "Le soir, je prépare la semaine suivante."
+      ],
+      "englishLines": [
+        "On Saturday morning, I wake up late.",
+        "I have my breakfast leisurely.",
+        "In the afternoon, I go to the cinema with my friends.",
+        "On Sunday, I do sports in the park.",
+        "In the evening, I prepare for the following week."
+      ],
+      "mcqs": [
+        {
+          "question": "Que fait-il/elle le samedi matin?",
+          "options": ["Il/Elle travaille", "Il/Elle se réveille tard", "Il/Elle fait du sport", "Il/Elle va au cinéma"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Quand va-t-il/elle au cinéma?",
+          "options": ["Le samedi matin", "Le samedi après-midi", "Le dimanche", "Le soir"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Que fait-il/elle le dimanche?",
+          "options": ["Du shopping", "Du sport", "Du cinéma", "Rien"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "level": "A2",
+      "paragraphId": "a2-2",
+      "title": "Au Restaurant",
+      "frenchLines": [
+        "Hier soir, je suis allé au restaurant.",
+        "J'ai commandé une salade et un steak.",
+        "Le serveur était très sympathique.",
+        "Le repas était délicieux.",
+        "J'ai payé l'addition et j'ai laissé un pourboire."
+      ],
+      "englishLines": [
+        "Last night, I went to the restaurant.",
+        "I ordered a salad and a steak.",
+        "The waiter was very friendly.",
+        "The meal was delicious.",
+        "I paid the bill and left a tip."
+      ],
+      "mcqs": [
+        {
+          "question": "Quand est-il/elle allé(e) au restaurant?",
+          "options": ["Ce matin", "Hier soir", "Demain", "La semaine dernière"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Qu'a-t-il/elle commandé?",
+          "options": ["Une pizza", "Une salade et un steak", "Un sandwich", "Des pâtes"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Comment était le serveur?",
+          "options": ["Désagréable", "Sympathique", "Rapide", "Lent"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "paragraphId": "b1-1",
+      "title": "Les Vacances d'Été",
+      "frenchLines": [
+        "L'été dernier, j'ai passé deux semaines dans le sud de la France.",
+        "Je logeais dans un petit village près de la mer.",
+        "Chaque matin, je me promenais sur la plage avant le lever du soleil.",
+        "J'ai rencontré des gens fascinants de différents pays.",
+        "Cette expérience m'a permis de pratiquer mon français et de me détendre complètement."
+      ],
+      "englishLines": [
+        "Last summer, I spent two weeks in the south of France.",
+        "I was staying in a small village near the sea.",
+        "Every morning, I walked on the beach before sunrise.",
+        "I met fascinating people from different countries.",
+        "This experience allowed me to practice my French and relax completely."
+      ],
+      "mcqs": [
+        {
+          "question": "Combien de temps a duré le séjour?",
+          "options": ["Une semaine", "Deux semaines", "Un mois", "Trois semaines"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Où était situé le village?",
+          "options": ["Dans les montagnes", "Près de la mer", "À Paris", "À la campagne"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Qu'a permis cette expérience?",
+          "options": ["De travailler", "De pratiquer le français", "D'étudier", "De cuisiner"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Quand se promenait-il/elle sur la plage?",
+          "options": ["Après le dîner", "L'après-midi", "Avant le lever du soleil", "À midi"],
+          "correctIndex": 2
+        }
+      ]
+    },
+    {
+      "level": "B1",
+      "paragraphId": "b1-2",
+      "title": "Le Travail à Distance",
+      "frenchLines": [
+        "Depuis la pandémie, beaucoup de gens travaillent de chez eux.",
+        "Cette nouvelle façon de travailler présente des avantages et des inconvénients.",
+        "D'un côté, on économise du temps en évitant les trajets quotidiens.",
+        "De l'autre, il peut être difficile de séparer vie professionnelle et vie personnelle.",
+        "L'important est de trouver un bon équilibre."
+      ],
+      "englishLines": [
+        "Since the pandemic, many people work from home.",
+        "This new way of working has advantages and disadvantages.",
+        "On one hand, we save time by avoiding daily commutes.",
+        "On the other hand, it can be difficult to separate professional and personal life.",
+        "The important thing is to find a good balance."
+      ],
+      "mcqs": [
+        {
+          "question": "Depuis quand beaucoup de gens travaillent-ils de chez eux?",
+          "options": ["Depuis toujours", "Depuis la pandémie", "Depuis l'an dernier", "Depuis 2010"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Quel est un avantage du travail à distance?",
+          "options": ["Plus de réunions", "Économiser du temps de trajet", "Plus de stress", "Moins de salaire"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Quel est un inconvénient mentionné?",
+          "options": ["Coût élevé", "Difficulté de séparation vie pro/perso", "Manque d'Internet", "Trop de vacances"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "paragraphId": "b2-1",
+      "title": "L'Impact des Réseaux Sociaux",
+      "frenchLines": [
+        "Les réseaux sociaux ont profondément transformé notre manière de communiquer.",
+        "Bien qu'ils permettent de rester en contact avec des amis éloignés, ils soulèvent également des questions importantes.",
+        "La protection des données personnelles est devenue une préoccupation majeure.",
+        "De plus, l'exposition constante aux vies idéalisées des autres peut affecter notre bien-être mental.",
+        "Il est essentiel d'adopter une approche critique et équilibrée face à ces outils numériques."
+      ],
+      "englishLines": [
+        "Social networks have profoundly transformed the way we communicate.",
+        "Although they allow us to stay in touch with distant friends, they also raise important questions.",
+        "The protection of personal data has become a major concern.",
+        "Moreover, constant exposure to others' idealized lives can affect our mental well-being.",
+        "It is essential to adopt a critical and balanced approach to these digital tools."
+      ],
+      "mcqs": [
+        {
+          "question": "Qu'ont transformé les réseaux sociaux?",
+          "options": ["Notre alimentation", "Notre manière de communiquer", "Notre façon de voyager", "Notre système éducatif"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Quelle est une préoccupation majeure mentionnée?",
+          "options": ["Le coût d'Internet", "La protection des données personnelles", "La vitesse de connexion", "Le nombre d'amis"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Que peut affecter l'exposition aux vies idéalisées?",
+          "options": ["Notre portefeuille", "Notre bien-être mental", "Notre emploi", "Notre éducation"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Quelle approche est recommandée?",
+          "options": ["Ignorer les réseaux sociaux", "Une approche critique et équilibrée", "Utiliser plus les réseaux", "Supprimer tous les comptes"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "level": "B2",
+      "paragraphId": "b2-2",
+      "title": "La Transition Écologique",
+      "frenchLines": [
+        "Face à l'urgence climatique, la transition écologique s'impose comme une nécessité absolue.",
+        "Les gouvernements et les entreprises doivent repenser leurs modèles de production et de consommation.",
+        "Cependant, cette transformation ne peut réussir sans l'engagement des citoyens.",
+        "Chacun peut contribuer par des gestes simples: réduire sa consommation d'énergie, privilégier les transports en commun, ou encore adopter une alimentation plus durable.",
+        "L'enjeu est de taille, mais les solutions existent si nous agissons collectivement."
+      ],
+      "englishLines": [
+        "Faced with the climate emergency, ecological transition is an absolute necessity.",
+        "Governments and companies must rethink their production and consumption models.",
+        "However, this transformation cannot succeed without citizen engagement.",
+        "Everyone can contribute through simple actions: reducing energy consumption, favoring public transport, or adopting a more sustainable diet.",
+        "The challenge is significant, but solutions exist if we act collectively."
+      ],
+      "mcqs": [
+        {
+          "question": "Pourquoi la transition écologique est-elle nécessaire?",
+          "options": ["Pour l'économie", "Face à l'urgence climatique", "Pour le tourisme", "Pour la technologie"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Qui doit agir selon le texte?",
+          "options": ["Seulement les gouvernements", "Tout le monde", "Seulement les entreprises", "Seulement les scientifiques"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Quel geste simple est mentionné?",
+          "options": ["Acheter une voiture", "Réduire sa consommation d'énergie", "Voyager plus", "Construire des maisons"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "paragraphId": "c1-1",
+      "title": "L'Intelligence Artificielle et l'Éthique",
+      "frenchLines": [
+        "L'essor fulgurant de l'intelligence artificielle soulève des questions éthiques fondamentales qui méritent une attention particulière.",
+        "Si ces technologies promettent d'améliorer considérablement notre quotidien, elles comportent également des risques non négligeables.",
+        "La question de la responsabilité en cas d'erreur d'un système autonome reste largement débattue dans les sphères juridiques et philosophiques.",
+        "Par ailleurs, le remplacement progressif de certains emplois par des machines pourrait exacerber les inégalités socio-économiques existantes.",
+        "Il apparaît donc impératif d'établir un cadre réglementaire rigoureux qui concilie innovation technologique et protection des droits fondamentaux."
+      ],
+      "englishLines": [
+        "The meteoric rise of artificial intelligence raises fundamental ethical questions that deserve special attention.",
+        "While these technologies promise to significantly improve our daily lives, they also carry considerable risks.",
+        "The question of responsibility in case of an error by an autonomous system remains widely debated in legal and philosophical spheres.",
+        "Moreover, the gradual replacement of certain jobs by machines could exacerbate existing socio-economic inequalities.",
+        "It therefore appears imperative to establish a rigorous regulatory framework that reconciles technological innovation with the protection of fundamental rights."
+      ],
+      "mcqs": [
+        {
+          "question": "Quel est le sujet principal du texte?",
+          "options": ["L'histoire de la technologie", "Les questions éthiques de l'IA", "Le développement économique", "L'éducation moderne"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Selon le texte, que pourrait exacerber le remplacement des emplois?",
+          "options": ["La productivité", "Les inégalités socio-économiques", "L'innovation", "La croissance"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Que faut-il établir selon la conclusion?",
+          "options": ["Plus de machines", "Un cadre réglementaire rigoureux", "De nouvelles entreprises", "Des écoles d'IA"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Quelle question reste débattue?",
+          "options": ["Le coût de l'IA", "La responsabilité en cas d'erreur", "La vitesse de l'IA", "La couleur des machines"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "level": "C1",
+      "paragraphId": "c1-2",
+      "title": "La Mondialisation Culturelle",
+      "frenchLines": [
+        "La mondialisation a engendré une homogénéisation culturelle qui suscite autant d'enthousiasme que d'inquiétude.",
+        "D'une part, l'accès facilité aux œuvres culturelles du monde entier enrichit indéniablement notre horizon intellectuel.",
+        "D'autre part, la prédominance de certaines industries culturelles menace la diversité linguistique et artistique.",
+        "Les cultures locales risquent de s'effacer face à une culture mondialisée dominée par quelques acteurs majeurs.",
+        "Préserver cette diversité tout en embrassant les opportunités de l'échange interculturel constitue l'un des défis majeurs de notre époque."
+      ],
+      "englishLines": [
+        "Globalization has generated cultural homogenization that arouses as much enthusiasm as concern.",
+        "On one hand, facilitated access to cultural works from around the world undeniably enriches our intellectual horizon.",
+        "On the other hand, the predominance of certain cultural industries threatens linguistic and artistic diversity.",
+        "Local cultures risk fading away in the face of a globalized culture dominated by a few major players.",
+        "Preserving this diversity while embracing the opportunities of intercultural exchange constitutes one of the major challenges of our time."
+      ],
+      "mcqs": [
+        {
+          "question": "Qu'a engendré la mondialisation selon le texte?",
+          "options": ["Une diversification", "Une homogénéisation culturelle", "Une isolation", "Une révolution"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Que risquent les cultures locales?",
+          "options": ["De prospérer", "De s'effacer", "De dominer", "De se multiplier"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Quel est le défi majeur mentionné?",
+          "options": ["Créer plus d'industries", "Préserver la diversité tout en embrassant l'échange", "Isoler les cultures", "Promouvoir une seule culture"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "level": "C2",
+      "paragraphId": "c2-1",
+      "title": "La Phénoménologie de la Mémoire",
+      "frenchLines": [
+        "La mémoire, loin d'être un simple dispositif d'enregistrement passif, constitue un processus dynamique de reconstruction perpétuelle.",
+        "Chaque évocation d'un souvenir le modifie subtilement, le teintant de nos états émotionnels présents et de nos expériences subséquentes.",
+        "Cette plasticité mnésique, bien que source potentielle d'inexactitudes, témoigne de la nature profondément adaptative de notre cognition.",
+        "Les travaux de neurosciences contemporaines révèlent que la consolidation mémorielle s'opère selon des mécanismes moléculaires d'une complexité fascinante.",
+        "Ainsi, comprendre la mémoire revient à appréhender non seulement notre rapport au passé, mais également la construction même de notre identité narrative."
+      ],
+      "englishLines": [
+        "Memory, far from being a simple passive recording device, constitutes a dynamic process of perpetual reconstruction.",
+        "Each evocation of a memory subtly modifies it, tinting it with our present emotional states and subsequent experiences.",
+        "This mnesic plasticity, although a potential source of inaccuracies, testifies to the profoundly adaptive nature of our cognition.",
+        "Contemporary neuroscience research reveals that memory consolidation operates through molecular mechanisms of fascinating complexity.",
+        "Thus, understanding memory amounts to apprehending not only our relationship to the past, but also the very construction of our narrative identity."
+      ],
+      "mcqs": [
+        {
+          "question": "Comment la mémoire est-elle décrite dans le texte?",
+          "options": ["Comme un enregistrement passif", "Comme un processus dynamique de reconstruction", "Comme un système parfait", "Comme une base de données"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Que révèlent les travaux de neurosciences?",
+          "options": ["Que la mémoire est simple", "La complexité des mécanismes moléculaires", "Que la mémoire est inutile", "Que tout est génétique"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Que modifie chaque évocation d'un souvenir?",
+          "options": ["Rien du tout", "Le souvenir lui-même", "Le cerveau entier", "L'avenir"],
+          "correctIndex": 1
+        },
+        {
+          "question": "À quoi témoigne la plasticité mnésique?",
+          "options": ["À nos erreurs", "À la nature adaptative de notre cognition", "À notre faiblesse", "À l'échec de l'évolution"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Que permet de comprendre l'étude de la mémoire?",
+          "options": ["Seulement le passé", "Notre rapport au passé et notre identité narrative", "Le futur", "Les autres personnes"],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "level": "C2",
+      "paragraphId": "c2-2",
+      "title": "L'Esthétique de l'Absurde",
+      "frenchLines": [
+        "L'absurde, en tant que catégorie philosophique et esthétique, transcende la simple négation du sens pour révéler une dimension existentielle fondamentale.",
+        "Chez Camus, cette notion cristallise la confrontation entre l'exigence humaine de cohérence et l'indifférence silencieuse de l'univers.",
+        "L'art absurde ne se contente pas de représenter cette dissonance; il l'incarne dans sa forme même, subvertissant les conventions narratives et logiques.",
+        "Cette esthétique bouleverse notre rapport à la signification, nous contraignant à reconnaître les limites inhérentes de notre quête de sens.",
+        "Paradoxalement, c'est dans cet aveu de l'absurdité que réside la possibilité d'une authentique liberté créatrice et existentielle."
+      ],
+      "englishLines": [
+        "The absurd, as a philosophical and aesthetic category, transcends the simple negation of meaning to reveal a fundamental existential dimension.",
+        "In Camus, this notion crystallizes the confrontation between the human demand for coherence and the silent indifference of the universe.",
+        "Absurdist art does not merely represent this dissonance; it embodies it in its very form, subverting narrative and logical conventions.",
+        "This aesthetic disrupts our relationship to meaning, forcing us to recognize the inherent limits of our quest for sense.",
+        "Paradoxically, it is in this acknowledgment of absurdity that lies the possibility of an authentic creative and existential freedom."
+      ],
+      "mcqs": [
+        {
+          "question": "Que transcende l'absurde selon le texte?",
+          "options": ["La logique pure", "La simple négation du sens", "L'art moderne", "La philosophie classique"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Chez Camus, que cristallise la notion d'absurde?",
+          "options": ["La joie de vivre", "La confrontation entre exigence humaine et indifférence universelle", "La religion", "La science"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Comment l'art absurde traite-t-il la dissonance?",
+          "options": ["Il l'ignore", "Il l'incarne dans sa forme même", "Il la résout", "Il la cache"],
+          "correctIndex": 1
+        },
+        {
+          "question": "Où réside la possibilité de liberté authentique?",
+          "options": ["Dans la certitude", "Dans l'aveu de l'absurdité", "Dans l'ignorance", "Dans la tradition"],
+          "correctIndex": 1
+        }
+      ]
+    }
+  ]
+}

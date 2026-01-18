@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprendre le Français - Learn French</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🇫🇷 Apprendre le Français</h1>
+            <p class="subtitle">Improve your French reading comprehension with interactive paragraphs</p>
+        </header>
+
+        <main>
+            <section class="intro">
+                <h2>How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <p>Choose your level</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <p>Select a paragraph to read</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <p>Hover over lines for translations</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">4</span>
+                        <p>Test your understanding with MCQs</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="level-selector">
+                <h2>Choose Your Level</h2>
+                <div class="level-buttons">
+                    <button class="level-btn" data-level="A1">
+                        <span class="level-label">A1</span>
+                        <span class="level-desc">Beginner</span>
+                    </button>
+                    <button class="level-btn" data-level="A2">
+                        <span class="level-label">A2</span>
+                        <span class="level-desc">Elementary</span>
+                    </button>
+                    <button class="level-btn" data-level="B1">
+                        <span class="level-label">B1</span>
+                        <span class="level-desc">Intermediate</span>
+                    </button>
+                    <button class="level-btn" data-level="B2">
+                        <span class="level-label">B2</span>
+                        <span class="level-desc">Upper Intermediate</span>
+                    </button>
+                    <button class="level-btn" data-level="C1">
+                        <span class="level-label">C1</span>
+                        <span class="level-desc">Advanced</span>
+                    </button>
+                    <button class="level-btn" data-level="C2">
+                        <span class="level-label">C2</span>
+                        <span class="level-desc">Proficient</span>
+                    </button>
+                </div>
+            </section>
+
+            <section id="paragraphs-section" class="paragraphs-section hidden">
+                <div class="section-header">
+                    <h2>Select a Paragraph</h2>
+                    <button id="back-btn" class="back-btn">← Back to Levels</button>
+                </div>
+                <div id="paragraphs-list" class="paragraphs-list"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Practice reading French with instant translations and comprehension questions</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
