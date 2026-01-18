@@ -4,37 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reading - Apprendre le Français</title>
-    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#FAF7F2',
+                        sand: '#E8DFD0',
+                        charcoal: '#2C2C2C',
+                        sage: '#9CAF88',
+                        terracotta: '#D4A59A',
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/custom.css">
 </head>
-<body>
-    <div class="container">
-        <header>
-            <h1>🇫🇷 Apprendre le Français</h1>
-            <a href="index.html" class="home-link">← Back to Home</a>
+<body class="bg-cream min-h-screen">
+    <div class="max-w-5xl mx-auto px-6 py-12">
+        <header class="mb-16">
+            <div class="flex items-center justify-between">
+                <h1 class="font-serif text-5xl font-light text-charcoal tracking-tight">Apprendre le Français</h1>
+                <a href="index.html" class="font-sans text-sm font-light text-charcoal/60 hover:text-charcoal transition-colors tracking-wide">← Accueil</a>
+            </div>
         </header>
 
         <main>
             <section class="reading-section">
-                <div class="reading-header">
-                    <h2 id="paragraph-title"></h2>
-                    <span id="level-badge" class="level-badge"></span>
+                <div class="flex justify-between items-start mb-8">
+                    <h2 id="paragraph-title" class="font-serif text-4xl font-light text-charcoal tracking-tight"></h2>
+                    <span id="level-badge" class="font-serif text-sm px-4 py-1 border border-charcoal/20 text-charcoal/60"></span>
                 </div>
 
-                <div class="instructions">
-                    <p>💡 <strong>Tip:</strong> Click on any French line to reveal its English translation</p>
+                <div class="mb-8 p-4 bg-white/50 border-l-2 border-charcoal/20">
+                    <p class="font-sans text-sm font-light text-charcoal/60 tracking-wide">Cliquez sur une ligne pour révéler la traduction</p>
                 </div>
 
-                <div id="french-text" class="french-text"></div>
+                <div id="french-text" class="french-text mb-16"></div>
 
                 <div class="quiz-section">
-                    <h3>Test Your Comprehension</h3>
-                    <div id="mcq-container" class="mcq-container"></div>
+                    <div class="h-px bg-charcoal/10 mb-12"></div>
+                    <h3 class="font-serif text-3xl font-light text-charcoal mb-8 tracking-tight">Questions</h3>
+                    <div id="mcq-container" class="mcq-container space-y-6"></div>
                 </div>
             </section>
         </main>
 
-        <footer>
-            <p>Practice reading French with instant translations and comprehension questions</p>
+        <footer class="mt-32 pt-12 border-t border-charcoal/10">
+            <p class="font-sans text-sm font-light text-charcoal/40 text-center tracking-widest">BONNE CHANCE</p>
         </footer>
     </div>
 

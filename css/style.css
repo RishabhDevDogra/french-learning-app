@@ -214,18 +214,42 @@ main {
     background: var(--card-bg);
     border: 2px solid var(--border-color);
     border-radius: 10px;
-    padding: 20px;
+    padding: 0;
     cursor: pointer;
     transition: var(--transition);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 .paragraph-card:hover {
     border-color: var(--secondary-color);
     transform: translateX(5px);
-    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.15);
+    box-shadow: 0 4px 16px rgba(52, 152, 219, 0.25);
+}
+
+.card-image {
+    flex-shrink: 0;
+    width: 140px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.paragraph-card:hover .card-image img {
+    transform: scale(1.1);
+}
+
+.paragraph-info {
+    flex-grow: 1;
+    padding: 20px;
 }
 
 .paragraph-info h3 {
@@ -242,6 +266,7 @@ main {
 .arrow {
     color: var(--secondary-color);
     font-size: 1.5rem;
+    padding-right: 20px;
 }
 
 /* ===== READING PAGE ===== */
@@ -250,6 +275,26 @@ main {
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.paragraph-image {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.paragraph-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.paragraph-image:hover img {
+    transform: scale(1.05);
 }
 
 .reading-header {
@@ -474,6 +519,15 @@ footer {
         align-items: flex-start;
         gap: 15px;
     }
+
+    .paragraph-image img {
+        height: 250px;
+    }
+
+    .card-image {
+        width: 100px;
+        height: 90px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -483,5 +537,24 @@ footer {
 
     .steps {
         grid-template-columns: 1fr;
+    }
+
+    .paragraph-card {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .card-image {
+        width: 100%;
+        height: 180px;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .paragraph-image img {
+        height: 200px;
+    }
     }
 }

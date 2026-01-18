@@ -4,6 +4,7 @@
       "level": "A1",
       "paragraphId": "a1-1",
       "title": "Bonjour!",
+      "image": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=80",
       "frenchLines": [
         "Bonjour! Je m'appelle Marie.",
         "J'ai vingt ans.",
@@ -38,6 +39,7 @@
       "level": "A1",
       "paragraphId": "a1-2",
       "title": "Ma Famille",
+      "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80",
       "frenchLines": [
         "J'ai une grande famille.",
         "Mon père s'appelle Pierre.",
@@ -72,6 +74,7 @@
       "level": "A2",
       "paragraphId": "a2-1",
       "title": "Mon Week-end",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80",
       "frenchLines": [
         "Le samedi matin, je me réveille tard.",
         "Je prends mon petit-déjeuner tranquillement.",
@@ -108,6 +111,7 @@
       "level": "A2",
       "paragraphId": "a2-2",
       "title": "Au Restaurant",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
       "frenchLines": [
         "Hier soir, je suis allé au restaurant.",
         "J'ai commandé une salade et un steak.",
@@ -144,6 +148,7 @@
       "level": "B1",
       "paragraphId": "b1-1",
       "title": "Les Vacances d'Été",
+      "image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80",
       "frenchLines": [
         "L'été dernier, j'ai passé deux semaines dans le sud de la France.",
         "Je logeais dans un petit village près de la mer.",
@@ -185,6 +190,7 @@
       "level": "B1",
       "paragraphId": "b1-2",
       "title": "Le Travail à Distance",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
       "frenchLines": [
         "Depuis la pandémie, beaucoup de gens travaillent de chez eux.",
         "Cette nouvelle façon de travailler présente des avantages et des inconvénients.",
@@ -221,6 +227,7 @@
       "level": "B2",
       "paragraphId": "b2-1",
       "title": "L'Impact des Réseaux Sociaux",
+      "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
       "frenchLines": [
         "Les réseaux sociaux ont profondément transformé notre manière de communiquer.",
         "Bien qu'ils permettent de rester en contact avec des amis éloignés, ils soulèvent également des questions importantes.",
@@ -262,6 +269,7 @@
       "level": "B2",
       "paragraphId": "b2-2",
       "title": "La Transition Écologique",
+      "image": "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=800&q=80",
       "frenchLines": [
         "Face à l'urgence climatique, la transition écologique s'impose comme une nécessité absolue.",
         "Les gouvernements et les entreprises doivent repenser leurs modèles de production et de consommation.",
@@ -298,6 +306,7 @@
       "level": "C1",
       "paragraphId": "c1-1",
       "title": "L'Intelligence Artificielle et l'Éthique",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
       "frenchLines": [
         "L'essor fulgurant de l'intelligence artificielle soulève des questions éthiques fondamentales qui méritent une attention particulière.",
         "Si ces technologies promettent d'améliorer considérablement notre quotidien, elles comportent également des risques non négligeables.",
@@ -339,6 +348,7 @@
       "level": "C1",
       "paragraphId": "c1-2",
       "title": "La Mondialisation Culturelle",
+      "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=800&q=80",
       "frenchLines": [
         "La mondialisation a engendré une homogénéisation culturelle qui suscite autant d'enthousiasme que d'inquiétude.",
         "D'une part, l'accès facilité aux œuvres culturelles du monde entier enrichit indéniablement notre horizon intellectuel.",
@@ -375,6 +385,7 @@
       "level": "C2",
       "paragraphId": "c2-1",
       "title": "La Phénoménologie de la Mémoire",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
       "frenchLines": [
         "La mémoire, loin d'être un simple dispositif d'enregistrement passif, constitue un processus dynamique de reconstruction perpétuelle.",
         "Chaque évocation d'un souvenir le modifie subtilement, le teintant de nos états émotionnels présents et de nos expériences subséquentes.",
@@ -421,6 +432,7 @@
       "level": "C2",
       "paragraphId": "c2-2",
       "title": "L'Esthétique de l'Absurde",
+      "image": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=800&q=80",
       "frenchLines": [
         "L'absurde, en tant que catégorie philosophique et esthétique, transcende la simple négation du sens pour révéler une dimension existentielle fondamentale.",
         "Chez Camus, cette notion cristallise la confrontation entre l'exigence humaine de cohérence et l'indifférence silencieuse de l'univers.",

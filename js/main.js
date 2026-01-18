@@ -66,30 +66,40 @@ function showParagraphsForLevel(level) {
 // Create paragraph card element
 function createParagraphCard(paragraph) {
     const card = document.createElement('div');
-    card.className = 'paragraph-card';
+    card.className = 'group cursor-pointer border border-charcoal/10 hover:border-charcoal/30 transition-all duration-500 overflow-hidden bg-white/30';
     card.addEventListener('click', () => {
         navigateToReading(paragraph.paragraphId);
     });
     
+    // Add image if available
+    if (paragraph.image) {
+        const imageDiv = document.createElement('div');
+        imageDiv.className = 'h-64 overflow-hidden';
+        
+        const img = document.createElement('img');
+        img.src = paragraph.image;
+        img.alt = paragraph.title;
+        img.className = 'w-full h-full object-cover group-hover:scale-105 transition-transform duration-700';
+        
+        imageDiv.appendChild(img);
+        card.appendChild(imageDiv);
+    }
+    
     const info = document.createElement('div');
-    info.className = 'paragraph-info';
+    info.className = 'p-8';
     
     const title = document.createElement('h3');
+    title.className = 'font-serif text-3xl font-light text-charcoal mb-3 tracking-tight';
     title.textContent = paragraph.title;
     
     const preview = document.createElement('p');
-    preview.className = 'paragraph-preview';
+    preview.className = 'font-sans text-sm font-light text-charcoal/50 italic tracking-wide';
     preview.textContent = paragraph.frenchLines[0];
     
     info.appendChild(title);
     info.appendChild(preview);
     
-    const arrow = document.createElement('span');
-    arrow.className = 'arrow';
-    arrow.textContent = '→';
-    
     card.appendChild(info);
-    card.appendChild(arrow);
     
     return card;
 }

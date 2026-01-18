@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprendre le Français - Learn French</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#FAF7F2',
+                        sand: '#E8DFD0',
+                        charcoal: '#2C2C2C',
+                        sage: '#9CAF88',
+                        terracotta: '#D4A59A',
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant Garamond', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-cream min-h-screen">
+    <div class="max-w-6xl mx-auto px-6 py-12">
+        <header class="text-center mb-20">
+            <div class="inline-block mb-4 text-4xl">🇫🇷</div>
+            <h1 class="font-serif text-7xl font-light text-charcoal mb-4 tracking-tight">Apprendre le Français</h1>
+            <p class="font-sans text-lg font-light text-charcoal/60 tracking-wide">Une expérience d'apprentissage raffinée</p>
+        </header>
+
+        <main>
+            <section class="mb-24">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+                    <div class="text-center group">
+                        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-charcoal/5 flex items-center justify-center font-serif text-2xl text-charcoal/40 group-hover:bg-charcoal/10 transition-all duration-500">1</div>
+                        <p class="font-sans text-sm font-light text-charcoal/70 tracking-wide">Choisissez votre niveau</p>
+                    </div>
+                    <div class="text-center group">
+                        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-charcoal/5 flex items-center justify-center font-serif text-2xl text-charcoal/40 group-hover:bg-charcoal/10 transition-all duration-500">2</div>
+                        <p class="font-sans text-sm font-light text-charcoal/70 tracking-wide">Sélectionnez un texte</p>
+                    </div>
+                    <div class="text-center group">
+                        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-charcoal/5 flex items-center justify-center font-serif text-2xl text-charcoal/40 group-hover:bg-charcoal/10 transition-all duration-500">3</div>
+                        <p class="font-sans text-sm font-light text-charcoal/70 tracking-wide">Découvrez les traductions</p>
+                    </div>
+                    <div class="text-center group">
+                        <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-charcoal/5 flex items-center justify-center font-serif text-2xl text-charcoal/40 group-hover:bg-charcoal/10 transition-all duration-500">4</div>
+                        <p class="font-sans text-sm font-light text-charcoal/70 tracking-wide">Testez votre compréhension</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-24">
+                <div class="h-px bg-charcoal/10 mb-16"></div>
+                <h2 class="font-serif text-4xl font-light text-charcoal text-center mb-12 tracking-tight">Votre Niveau</h2>
+                <div class="grid grid-cols-2 md:grid-cols-6 gap-4 max-w-4xl mx-auto">
+                    <button class="level-btn font-serif text-2xl py-6 border border-charcoal/20 hover:border-charcoal hover:bg-charcoal hover:text-cream transition-all duration-300" data-level="A1">A1</button>
+                    <button class="level-btn font-serif text-2xl py-6 border border-charcoal/20 hover:border-charcoal hover:bg-charcoal hover:text-cream transition-all duration-300" data-level="A2">A2</button>
+                    <button class="level-btn font-serif text-2xl py-6 border border-charcoal/20 hover:border-charcoal hover:bg-charcoal hover:text-cream transition-all duration-300" data-level="B1">B1</button>
+                    <button class="level-btn font-serif text-2xl py-6 border border-charcoal/20 hover:border-charcoal hover:bg-charcoal hover:text-cream transition-all duration-300" data-level="B2">B2</button>
+                    <button class="level-btn font-serif text-2xl py-6 border border-charcoal/20 hover:border-charcoal hover:bg-charcoal hover:text-cream transition-all duration-300" data-level="C1">C1</button>
+                    <button class="level-btn font-serif text-2xl py-6 border border-charcoal/20 hover:border-charcoal hover:bg-charcoal hover:text-cream transition-all duration-300" data-level="C2">C2</button>
+                </div>
+            </section>
+                        <span class="level-label">C2</span>
+                        <span class="level-desc">Proficient</span>
+                    </button>
+                </div>
+            </section>
+
+            <section id="paragraphs-section" class="paragraphs-section hidden">
+                <div class="h-px bg-charcoal/10 mb-16"></div>
+                <div class="flex justify-between items-center mb-12">
+                    <h2 id="selected-level-title" class="font-serif text-4xl font-light text-charcoal tracking-tight">Textes</h2>
+                    <button id="back-btn" class="font-sans text-sm font-light text-charcoal/60 hover:text-charcoal transition-colors tracking-wide">← Retour</button>
+                </div>
+                <div id="paragraphs-list" class="space-y-4 max-w-4xl mx-auto"></div>
+            </section>
+        </main>
+
+        <footer class="mt-32 pt-12 border-t border-charcoal/10">
+            <p class="font-sans text-sm font-light text-charcoal/40 text-center tracking-widest">BONNE CHANCE</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
